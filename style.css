@@ -43,6 +43,7 @@ font-family: serif;
 .header h3 {
   font-family: "Anton";
   font-size: 12px;
+  font-weight: lighter;
 }
 
   .header.icons {
@@ -55,21 +56,34 @@ font-family: serif;
     font-family: serif;
   }
 
-  #pic-head.h1 {
+  h4 {
     font-family: "Anton";
-    font-size: 20px;
+    font-size: 35px;
   }
 
-  #pic-head.h2 {
+  h5 {
     font-family: "Anton";
     font-size: 10px;
-    color: gray;
+    color: lightgray;
    }
 
   .repeating-linear {
   background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px);
 }
 
+h6 {
+  font-family: "serif";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h7 {
+  font-family: "serif";
+
+ }
+
 footer {
   text-align: center;
+  color: lightgray;
+  font-size: 10
 }
