@@ -1,4 +1,75 @@
-*
-{border: 1px,
-  dotted: red,
+
+* {
+  border-style: dotted;
+  border-width: 1px;
+  border-color: red;
+  font-family: "Pacifico", cursive, "Anton", sans-serif, serif;
+  }
+
+body {
+max-width: 1080px;
+margin: 0 auto;
+float: none;
+font-family: serif;
+
+}
+
+
+.header {
+  margin: 20px, 20px, 0, 0;
+  overflow: auto;
+  }
+
+.header.fork img {
+  position:absolute;
+  left: 50px;
+}
+
+.header h1 {
+  font-family: "Pacifico";
+  font-size: 36px;
+  font-style: italic;
+  float:left;
+}
+
+.header h2 {
+  font-family: "Pacifico";
+  font-size: 25px;
+  font-style: italic;
+  float:left;
+  padding-top: 8px;
+}
+
+.header h3 {
+  font-family: "Anton";
+  font-size: 12px;
+}
+
+  .header.icons {
+    margin: 0,0,0,900;
+    float:left;
+
+  }
+
+  main {
+    font-family: serif;
+  }
+
+  #pic-head.h1 {
+    font-family: "Anton";
+    font-size: 20px;
+  }
+
+  #pic-head.h2 {
+    font-family: "Anton";
+    font-size: 10px;
+    color: gray;
+   }
+
+  .repeating-linear {
+  background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px);
+}
+
+footer {
+  text-align: center;
 }
