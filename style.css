@@ -71,6 +71,15 @@ font-family: serif;
   background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px);
 }
 
+.pic-head.img {
+  {
+      display: block;
+      margin: auto;
+      width: 40%;
+  }
+
+}
+
 h6 {
   font-family: "serif";
   font-size: 18px;
