@@ -3,16 +3,17 @@
   border-style: dotted;
   border-width: 1px;
   border-color: red;
-  font-family: "Pacifico", cursive, "Anton", sans-serif, serif;
+  font-family: "Pacifico", cursive, "Anton", sans-serif, serif, "Short Stack", cursive;;
+
   }
 
-body {
-max-width: 1080px;
-margin: 0 auto;
-float: none;
-font-family: serif;
+  body {
+  max-width: 1080px;
+  margin: 75px auto 75px auto;
+  float: none;
+  font-family: serif;
 
-}
+  }
 
 
 .header {
@@ -23,6 +24,8 @@ font-family: serif;
 .header.fork img {
   position:absolute;
   left: 50px;
+  float: left;
+  padding: 5px;
 }
 
 .header h1 {
@@ -30,6 +33,7 @@ font-family: serif;
   font-size: 36px;
   font-style: italic;
   float:left;
+  text-align:
 }
 
 .header h2 {
@@ -71,19 +75,49 @@ font-family: serif;
   background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px);
 }
 
-.pic-head.img {
-  {
-      display: block;
-      margin: auto;
-      width: 40%;
-  }
 
+p.fig {
+  text-align: center;
+  width:960px;
+  margin: 20px auto 20px auto;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px;
+}
+.shop-list{
+  position: relative;
+      text-align: center;
+      color: black;
+}
+.list-left {
+  font-family: "Short Stack";
+  position: absolute;
+  font-size: 22px;
+  text-align: left;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.list-right {
+  font-family: "Short Stack";
+  position: absolute;
+  font-size: 22px;
+  text-align: left;
+    top: 30%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+}
+.bio.img {
+  float: left;
 }
 
 h6 {
   font-family: "serif";
   font-size: 18px;
   font-weight: bold;
+
 }
 
 h7 {
@@ -95,4 +129,5 @@ footer {
   text-align: center;
   color: lightgray;
   font-size: 10
+  margin-bottom: 250px:
 }
